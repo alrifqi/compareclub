@@ -1,0 +1,139 @@
+.shopping-list--container {
+  background-color: #fff;
+}
+
+.shopping-list--header {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 20px 20px 20px;
+  border-bottom: #D8D8D8 1px solid;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.shopping-list--body {
+  padding: 10px 20px 10px 20px;
+}
+
+.shopping-list--card {
+  border: 1px solid #D8D8D8;
+  padding: 15px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.shopping-list--info {
+  display: flex;
+  flex-flow: column;
+  width: 70%;
+}
+
+.shopping-list--shoplogo {
+  width: fit-content;
+}
+
+.shopping-list--productname {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.shopping-list--disc-text {
+  font-size: 6px;
+  color: #d8d8d8;
+}
+
+.shopping-list--disc-info {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding-top: 10px;
+  width: 60%;
+}
+
+.shopping-list--disc-percentage {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.shopping-list--disc-amount {
+  color: #54B06B;
+  font-weight: 600;
+}
+
+.shopping-list--summary {
+  display: flex;
+  flex-flow:row;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.shopping-top--groceries--title, .shopping-top--groceries--body {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.topgroceries--card--container {
+  display: flex;
+  border: #D8D8D8 1px solid;
+  padding: 0px 0px 10px 10px;
+  flex-flow: column;
+  margin-right: 20px;
+}
+
+.topgroceries--card--header {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 100%;
+
+  .disc-info {
+    color:#fff;
+    background-color: #54B06B;
+    padding: 5px;
+    margin-left: auto;
+  }
+
+  .image-logo {
+    width: auto;
+  }
+}
+
+.topgroceries--card--body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  .product--name {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .product--image {
+    min-height: 100px;
+    max-height: 100px;
+    height: 100px;
+  }
+
+  .product--price {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 50%;
+
+    .value {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .discount {
+      color: #D7D7D7;
+      text-decoration: line-through solid #D7D7D7;
+    }
+  }
+}

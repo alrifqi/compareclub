@@ -1,0 +1,32 @@
+.credit-score__container {
+  display: flex;
+  flex-flow: column;
+}
+
+.credit-score--button--container {
+  display: flex;
+  flex-flow: row;
+
+  .credit-score--button {
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0;
+  }
+
+  .credit-score--button__grey {
+    background-color: #DADADA;
+    font-weight: 600;
+  }
+
+  .credit-score--button__green {
+    background-color: #54B06B;
+    color: #fff;
+  }
+}
+
+.credit-score--info {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}

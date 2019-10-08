@@ -1,0 +1,73 @@
+body {
+  background-color: #F8F8F8;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.nav-link {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.navbar--green {
+  border-bottom: 2px solid #37AC70;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #000;
+}
+
+.nav-tabs {
+  border-bottom: none;
+  background-color: #F8F8F8;
+  .nav-link {
+    border-radius: 0;
+    border: none;
+    border-top: #F8F8F8 2px solid;
+  }
+
+  .nav-link.active {
+    border-top: #37AC70 2px solid;
+  }
+}
+
+.tab-content {
+  margin-top: 0px !important;
+}
+
+.card--dashboard {
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 10px;
+
+  .card-header {
+    background-color: #fff;
+    border-bottom: #D8D8D8 1px solid;
+    margin: 0 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+}
+
+.card-report {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom-select {
+  width: 50%;
+  border-radius: 0px;
+  background: url(~assets/images/arrow-down.svg) no-repeat right #fff;
+}
+
+.green {
+  color: #54B06B;
+}

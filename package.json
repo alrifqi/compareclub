@@ -1,0 +1,26 @@
+{
+  "name": "alternativemedia",
+  "version": "1.0.0",
+  "description": "application for alternativemedia",
+  "author": "M Reza Nurrifqi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0",
+    "chart.js": "^2.8.0",
+    "d3": "^5.12.0",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.0",
+    "vue-carousel": "^0.18.0",
+    "vue-chartjs": "^3.4.2"
+  },
+  "devDependencies": {}
+}
