@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-tabs content-class="mt-3" fill>
+    <b-tabs content-class="mt-3" fill active-tab-class="active">
       <b-tab active>
         <template v-slot:title>
           <GaugeIcon />

@@ -10,6 +10,7 @@
       <g
         id="1.1-Mobile---Dashboard-score"
         transform="translate(-171.000000, -76.000000)"
+        class="icon-tab"
         fill="#858585"
         fill-rule="nonzero"
       >
